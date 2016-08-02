@@ -1,0 +1,88 @@
+body {
+    background: #ffffff;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    line-height: 1.65;
+    opacity: 0;
+    -webkit-transition: opacity 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-transition: opacity 2s;
+    /* Firefox < 16 */
+    -ms-transition: opacity 2s;
+    /* Internet Explorer */
+    -o-transition: opacity 2s;
+    /* Opera < 12.1 */
+    transition: opacity 2s;
+    transition-timing-function: ease;
+}
+p {
+    margin: 0 0 1em 0;
+    color: #8b8f94;
+}
+h1 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 300;
+}
+h1, h3, .jumbotron h1 {
+    color: #74797f;
+}
+footer, footer p {
+    color: #d0d0d0;
+}
+.icons {
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+}
+.icons li {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.5em;
+    padding: 0 1em 0 0;
+}
+.icons li:nth-last-child(1) {
+    padding-right: 0px;
+}
+.icon {
+    color: #d0d0d0;
+}
+.icon:hover, .icon:focus {
+    color: #2470b7;
+    text-decoration: none;
+}
+.loaded {
+    opacity: 1;
+}
+.jumbotron {
+    background-color: transparent;
+    margin: 0 0 0 0;
+}
+.footer-text {
+    font-size: 12px;
+    letter-spacing: 0.25em;
+}
+.greeting {
+    margin-bottom: 1em;
+}
+@media screen and (max-width: 1680px) {
+    p {
+        font-size: 15pt;
+    }
+}
+@media screen and (max-width: 1280px) {
+    p {
+        font-size: 14pt;
+    }
+}
+@media screen and (max-width: 736px) {
+    p {
+        font-size: 12pt;
+    }
+}
